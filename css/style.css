@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-image: url("../img/fundo.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+}
+
+header h1 {
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.404);
+}
+
+header p {
+  color: #fff;
+  font-style: italic;
+  font-weight: lighter;
+  margin: 0.625rem 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.404);
+}
+
+.form-container {
+  margin: 3.125rem auto 0 auto;
+  text-align: center;
+}
+
+.input-container {
+  width: 43.75rem;
+  margin: 0.937rem auto;
+  background-color: rgba(0, 1, 63, 0.918);
+  text-align: left;
+  padding: 2.5rem;
+  border-radius: 6px;
+}
+
+.input-container p {
+  color: #fff;
+  font-weight: medium;
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.input-container p:first-child {
+  margin-top: 0;
+}
+
+.input-container input{
+  width: 100%;
+  height: 2.5rem;
+  border-style: none;
+  border-radius: 4px;
+}
+
+.input-container input::placeholder {
+  padding-left: 0.625rem;
+  font-size: 1rem;
+}
+
+.input-container select {
+  width: 100%;
+  height: 2.5rem;
+  padding-left: 0.625rem;
+  font-size: 1rem;
+  color: #616161;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: medium;
+}
+
+.input-container .radio {
+  width: 1.25rem;
+  height: 1.875rem;
+  margin-right: 8px;
+}
+
+.input-container .checkbox {
+  width: 1.25rem;
+  height: 1.875rem;
+  margin-right: 8px;
+}
+
+.input-container span {
+  font-size: 0.85rem;
+}
+
+textarea {
+  width: 100%;
+  min-height: 120px;
+  resize: vertical;
+}
+
+textarea::placeholder {
+  padding-left: 0.625rem;
+  font-size: 1rem;
+}
+
+.button {
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+  background-color: #37AF65;
+  color: #fff;
+}
+
+@media only screen and (max-width: 720px) {
+  .input-container {
+   width: 100%;
+  }
+}
